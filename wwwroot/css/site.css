@@ -1,0 +1,34 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.favorite-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+    .favorite-button .fa-star {
+        color: gray;
+        transition: color 0.3s;
+    }
+
+    .favorite-button.favorite .fa-star {
+        color: yellow;
+    }
